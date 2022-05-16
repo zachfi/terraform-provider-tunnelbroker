@@ -6,7 +6,7 @@ require (
 	github.com/hashicorp/terraform-plugin-framework v0.8.0
 	github.com/hashicorp/terraform-plugin-go v0.9.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.16.0
-	github.com/xaque208/go-tunnelbroker v1.0.1
+	github.com/xaque208/go-tunnelbroker v1.0.2
 )
 
 require (
@@ -49,5 +49,3 @@ require (
 	google.golang.org/grpc v1.45.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
-
-replace github.com/xaque208/go-tunnelbroker => /home/zach/go/src/github.com/xaque208/go-tunnelbroker
