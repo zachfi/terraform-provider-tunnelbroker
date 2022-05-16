@@ -2,7 +2,12 @@ module github.com/xaque208/terraform-provider-tunnelbroker
 
 go 1.18
 
-require github.com/hashicorp/terraform-plugin-sdk/v2 v2.16.0
+require (
+	github.com/hashicorp/terraform-plugin-framework v0.8.0
+	github.com/hashicorp/terraform-plugin-go v0.9.0
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.16.0
+	github.com/xaque208/go-tunnelbroker v1.0.1
+)
 
 require (
 	github.com/agext/levenshtein v1.2.2 // indirect
@@ -19,7 +24,6 @@ require (
 	github.com/hashicorp/go-version v1.4.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.12.0 // indirect
 	github.com/hashicorp/logutils v1.0.0 // indirect
-	github.com/hashicorp/terraform-plugin-go v0.9.0 // indirect
 	github.com/hashicorp/terraform-plugin-log v0.4.0 // indirect
 	github.com/hashicorp/terraform-registry-address v0.0.0-20210412075316-9b2996cce896 // indirect
 	github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734 // indirect
@@ -32,6 +36,7 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/oklog/run v1.0.0 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 	github.com/vmihailenco/msgpack/v4 v4.3.12 // indirect
 	github.com/vmihailenco/tagparser v0.1.1 // indirect
@@ -44,3 +49,5 @@ require (
 	google.golang.org/grpc v1.45.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
+
+replace github.com/xaque208/go-tunnelbroker => /home/zach/go/src/github.com/xaque208/go-tunnelbroker
